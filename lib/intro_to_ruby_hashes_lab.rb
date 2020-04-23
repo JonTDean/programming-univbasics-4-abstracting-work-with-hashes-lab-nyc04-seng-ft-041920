@@ -13,7 +13,7 @@ def update_counting_hash(hash, key)
     hash[key]
   else
     key += 1
-    hash[key] += 1
+    hash[key]
   end
   # if the provided key is present, increment its value by 1
 end
