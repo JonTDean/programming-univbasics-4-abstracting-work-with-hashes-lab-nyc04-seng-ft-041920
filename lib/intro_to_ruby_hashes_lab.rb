@@ -7,10 +7,5 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if key == nil
-    hash[key]
-  else
-    key + 1
-    return hash[key]
-  end
+
 end
