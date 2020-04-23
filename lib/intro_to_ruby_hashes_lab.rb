@@ -7,6 +7,8 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
+  
+  # If the hash[key] exists then add 1 to the keys value
   if hash[key]
     hash[key] = hash[key] + 1
   else
